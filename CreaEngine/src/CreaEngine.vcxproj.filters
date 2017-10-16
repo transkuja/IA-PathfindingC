@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{4f58bdd4-d51d-4be1-aeb3-f992b4a93581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{24b23b2f-2994-4ee8-b6f7-1886426a35c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AI">
+      <UniqueIdentifier>{18768ad0-dd84-46b6-a09f-69c39d960fee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\AI">
+      <UniqueIdentifier>{31a54332-e303-4718-a814-d455f7d573d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Graphics">
+      <UniqueIdentifier>{2caa5fd6-5c1e-4a1e-a1d7-fa33a6ec7c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Data">
+      <UniqueIdentifier>{133863af-b1ea-46aa-a150-e5e1d085cca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Graphics">
+      <UniqueIdentifier>{64b4b9a7-cb17-41fe-899b-278c5dae11c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Input">
+      <UniqueIdentifier>{892b57db-9134-4b3b-9b98-c7fd2dc71ecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Input">
+      <UniqueIdentifier>{77229a05-90ae-4d39-9b21-b7b61e616cf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Data">
+      <UniqueIdentifier>{a6fd088e-54ff-4f75-bdf7-72cc0b5c4cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Core">
+      <UniqueIdentifier>{318294f8-066b-4345-872d-f4cd3eab235a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core">
+      <UniqueIdentifier>{b1a3e4e8-12e6-4d36-b3d4-05906ba3a75b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Json">
+      <UniqueIdentifier>{90e4c7f2-ecba-49a2-92ef-bb866e76e15f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Json">
+      <UniqueIdentifier>{3eb90ada-3a39-4001-a082-d55f9f5e5835}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\CreaImport.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\stdafx.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\targetver.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Data\DataManager.h">
+      <Filter>include\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Graphics\SpriteRenderer.h">
+      <Filter>include\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Graphics\TextRenderer.h">
+      <Filter>include\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Input\InputManager.h">
+      <Filter>include\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Core\Component.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Core\Entity.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Core\EntityManager.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Core\GameManager.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Core\SceneManager.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Core\Scene.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Graphics\Sprite.h">
+      <Filter>include\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Graphics\Texture.h">
+      <Filter>include\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Graphics\Font.h">
+      <Filter>include\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Graphics\Text.h">
+      <Filter>include\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Graphics\Color.h">
+      <Filter>include\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Data\Map.h">
+      <Filter>include\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Data\Node.h">
+      <Filter>include\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Data\TileSet.h">
+      <Filter>include\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\json\json.h">
+      <Filter>include\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\json\json-forwards.h">
+      <Filter>include\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Graphics\MapRenderer.h">
+      <Filter>include\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Core\Math.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Data\DataManager.cpp">
+      <Filter>src\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\SpriteRenderer.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\TextRenderer.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputManager.cpp">
+      <Filter>src\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="CreaEngine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Entity.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\EntityManager.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\GameManager.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\SceneManager.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Component.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Scene.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Color.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Font.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Sprite.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Text.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Texture.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Map.cpp">
+      <Filter>src\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Node.cpp">
+      <Filter>src\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\TileSet.cpp">
+      <Filter>src\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="json\jsoncpp.cpp">
+      <Filter>src\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\MapRenderer.cpp">
+      <Filter>src\Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
