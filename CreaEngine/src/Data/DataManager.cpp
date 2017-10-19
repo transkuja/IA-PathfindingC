@@ -128,18 +128,14 @@ namespace crea
 	Sprite* DataManager::getSprite(string _szName, bool _bCloned)
 	{
 		MapStringSprite::iterator it = m_pSprites.find(_szName);
-		cout << "start get sprite" << endl;
 		if (it == m_pSprites.end())
 		{
-			cout << "if1" << endl;
 			Sprite* pSprite = new Sprite(); // Create a default Sprite if none exist
 			m_pSprites[_szName] = pSprite;
 			return pSprite;
 		}
 		else
 		{
-			cout << "else" << endl;
-
 			if (_bCloned)
 			{
 				return new Sprite(*it->second);

@@ -51,8 +51,6 @@ namespace crea
 			return false;
 		}
 
-		cout << root.get("width", 10).asInt();
-		cout << root.get("height", 10).asInt();
 		int iWidth = root.get("width", 10).asInt();
 		int iHeight = root.get("height", 10).asInt();
 		// Create all nodes
